@@ -44,10 +44,13 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati eligendi alias
-                        beatae sit autem nostrum omnis voluptas earum tenetur? Neque possimus distinctio maiores aut,
-                        quidem atque totam dolorem natus molestiae expedita porro. Vitae totam omnis, suscipit veniam
-                        quis magnam, incidunt tempore pariatur, ea magni in commodi ipsa odio? Accusamus.</p>
+                    <p>Results-oriented and innovative Senior Software Engineer with 6+ years of experience. Highly
+                        effective at developing new programs
+                        and fixing problems with existing systems. Proficient in Javascript and Agile/SCRUM methodology.
+                        Effectively communicate complex
+                        technical requirement to non-technical stakeholders . Excellent leadership record of leading
+                        development teams in enterprise-wide
+                        development projects.</p>
                     <div class="tab-titles">
                         <p class="tab-links active" onclick="openTab('skills')">Skills</p>
                         <p class="tab-links" onclick="openTab('experience')">Experience</p>
@@ -62,7 +65,7 @@
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Apr 2018 - Current</span><br /> Senior Engineer - Technology at Iris Software</li>
+                            <li><span>Dec 2020 - Current</span><br /> Senior Engineer - Technology at Iris Software</li>
                             <li><span>Apr 2018 - Dec 2020</span><br /> Developer at HCL (HCL Software)</li>
                             <li><span>July 2016 - Mar 2018</span><br /> Senior Software Engineer at Infosys</li>
                             <li><span>Jan 2016 - May 2016</span><br /> Intern at Infosys</li>
@@ -167,10 +170,10 @@
                     <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
                     <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
                     <div class="social-icons">
-                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://facebook.com/imyrups" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/imyrups" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/_imyrups" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/imyrups" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <a href="images/Rupeshkumar.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -191,13 +194,13 @@
     </div>
 
     <script src="script.js"></script>
-    
+
     <script>
         var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
+        function openmenu() {
             sidemenu.style.right = "0";
         }
-        function closemenu(){
+        function closemenu() {
             sidemenu.style.right = "-200px";
         }
     </script>
@@ -205,18 +208,18 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwU6ZVP034aTmBbE1LciqyIQ6VHO43PXRA1MntYfGZ7Gjt-KdUuIbumwUaZYhkgRAqW/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-  
+
         form.addEventListener('submit', e => {
             e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
     </script>
 </body>
