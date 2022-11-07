@@ -152,7 +152,7 @@ nav ul li a:hover::after {
     grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 40px;
     margin-top: 50px;
-    /* overflow: auto; */
+    overflow: auto;
 }
 .services-list div{
     background: #262626;
@@ -191,7 +191,7 @@ nav ul li a:hover::after {
     grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 40px;
     margin-top: 50px;
-    /* overflow: auto; */
+    overflow: auto;
 }
 .work {
     border-radius: 10px;
