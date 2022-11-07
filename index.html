@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Rupeshkumar Yadav Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Rupeshkumar Yadav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="Frontend engineer, UI Engineer, UX Engineer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Rupeshkumar</span><br>Yadav from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati eligendi alias
+                        beatae sit autem nostrum omnis voluptas earum tenetur? Neque possimus distinctio maiores aut,
+                        quidem atque totam dolorem natus molestiae expedita porro. Vitae totam omnis, suscipit veniam
+                        quis magnam, incidunt tempore pariatur, ea magni in commodi ipsa odio? Accusamus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br /> Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br /> Web App Development</li>
+                            <li><span>App Development</span><br /> Android/iOS App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Apr 2018 - Current</span><br /> Senior Engineer - Technology at Iris Software</li>
+                            <li><span>Apr 2018 - Dec 2020</span><br /> Developer at HCL (HCL Software)</li>
+                            <li><span>July 2016 - Mar 2018</span><br /> Senior Software Engineer at Infosys</li>
+                            <li><span>Jan 2016 - May 2016</span><br /> Intern at Infosys</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br /> B.tech in Computer Science from DDU(Dharmsinh Desai University)
+                            </li>
+                            <li><span>2012</span><br /> HSC with PCM(Maths) from Gujarat Board</li>
+                            <li><span>2010</span><br /> SSC from Gujarat Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui repudiandae velit quae
+                        harum distinctio quibusdam totam minus ullam aperiam est ipsum dicta nobis voluptatem beatae
+                        dolore dolorem eius consequuntur rerum, consequatur omnis vel corrupti! Nihil cumque accusamus
+                        incidunt laborum, perferendis, optio minima ducimus perspiciatis fugit at nam, consequuntur
+                        error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui repudiandae velit quae
+                        harum distinctio quibusdam totam minus ullam aperiam est ipsum dicta nobis voluptatem beatae
+                        dolore dolorem eius consequuntur rerum, consequatur omnis vel corrupti! Nihil cumque accusamus
+                        incidunt laborum, perferendis, optio minima ducimus perspiciatis fugit at nam, consequuntur
+                        error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui repudiandae velit quae
+                        harum distinctio quibusdam totam minus ullam aperiam est ipsum dicta nobis voluptatem beatae
+                        dolore dolorem eius consequuntur rerum, consequatur omnis vel corrupti! Nihil cumque accusamus
+                        incidunt laborum, perferendis, optio minima ducimus perspiciatis fugit at nam, consequuntur
+                        error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus odio itaque totam
+                            facere quasi! Quae dolores illum cupiditate ducimus vero ut tenetur id odio quo.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus odio itaque totam
+                            facere quasi! Quae dolores illum cupiditate ducimus vero ut tenetur id odio quo.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus odio itaque totam
+                            facere quasi! Quae dolores illum cupiditate ducimus vero ut tenetur id odio quo.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Rupeshkumar.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © kevin. made with <i class="fa-solid fa-heart"></i> by easy tutorial</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
