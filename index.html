@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8" />
@@ -17,7 +18,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" alt="logo" class="logo">
+                <!-- <img src="images/logo.png" alt="logo" class="logo"> -->
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -53,6 +54,7 @@
                         development projects.</p>
                     <div class="tab-titles">
                         <p class="tab-links active" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('tech')">Technology</p>
                         <p class="tab-links" onclick="openTab('experience')">Experience</p>
                         <p class="tab-links" onclick="openTab('education')">Education</p>
                     </div>
@@ -61,6 +63,13 @@
                             <li><span>UI/UX</span><br /> Designing Web/App Interfaces</li>
                             <li><span>Web Development</span><br /> Web App Development</li>
                             <li><span>App Development</span><br /> Android/iOS App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tech">
+                        <ul>
+                            <li><span>Angular</span><br /> Creating Complex SPAs using Angular best practices.</li>
+                            <li><span>React</span><br /> Web App Development</li>
+                            <li><span>Javascript</span><br /> Android/iOS App Development</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -167,8 +176,8 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
-                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
+                    <p><a href="mailTo:imyrups@gmail.com"><i class="fa-solid fa-paper-plane"></i>imyrups@gmail.com</a></p>
+                    <p><a href="tel:+917817824347"><i class="fa-sharp fa-solid fa-square-phone"></i>+91 7817824347</a></p>
                     <div class="social-icons">
                         <a href="https://facebook.com/imyrups" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://twitter.com/imyrups" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
@@ -189,7 +198,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright © Rupesh. made with <i class="fa-solid fa-heart"></i> from India</p>
+            <p>Copyright © Rupesh, made with <i class="fa-solid fa-heart"></i> from India</p>
         </div>
     </div>
 
